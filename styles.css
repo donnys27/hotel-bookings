@@ -1,4 +1,4 @@
-/* Source: https://www.youtube.com/watch?v=41q3xQZ_XcM&t=11m24s */
+/* Source: https://www.youtube.com/watch?v=41q3xQZ_XcM&t=15m28s */
 /* Import the fonts used */
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
 
@@ -84,4 +84,18 @@ section {
    cursor: pointer;
    position: relative;
    z-index: 1500;
+}
+
+.hamburger-menu .fa-times {
+   display: none;
+}
+
+.nav-list {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   background-color: var(--purple-solid);
+   display: flex;
 }
